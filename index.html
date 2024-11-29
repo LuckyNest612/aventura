@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A Jornada do Guardião Cósmico</title>
+</head>
+<body>
+    <main>
+        <!-- Fase 0 -->
+        <div class="passo ativo" id="passo-0">
+            <p>Você é convocado para proteger o "Núcleo Cósmico", um artefato capaz de salvar ou destruir o universo. Por onde começar sua jornada?</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a Base Lunar</button>
+            <button class="btn-proximo" data-proximo="2">Viajar à Nebulosa Perdida</button>
+        </div>
+        
+        <!-- Fase 1 -->
+        <div class="passo" id="passo-1">
+            <p>Na Base Lunar, você descobre uma mensagem criptografada que fala de um traidor na frota. Você pode:</p>
+            <button class="btn-proximo" data-proximo="3">Investigar a mensagem</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar e seguir em frente</button>
+        </div>
+
+        <!-- Fase 2 -->
+        <div class="passo" id="passo-2">
+            <p>Na Nebulosa Perdida, você encontra uma frota inimiga patrulhando a área. Suas opções são:</p>
+            <button class="btn-proximo" data-proximo="5">Infiltrar-se na frota</button>
+            <button class="btn-proximo" data-proximo="6">Esconder-se e esperar</button>
+        </div>
+
+        <!-- Fase 3 -->
+        <div class="passo" id="passo-3">
+            <p>Você descobre que o traidor está no comando da frota inimiga. Agora, você:</p>
+            <button class="btn-proximo" data-proximo="7">Enfrenta o traidor diretamente</button>
+            <button class="btn-proximo" data-proximo="8">Reúne aliados para um ataque estratégico</button>
+        </div>
+
+        <!-- Fase 4 -->
+        <div class="passo" id="passo-4">
+            <p>Ignorar a mensagem foi um erro. Você é emboscado por forças inimigas. Fim.</p>
+        </div>
+
+        <!-- Fase 5 -->
+        <div class="passo" id="passo-5">
+            <p>Infiltrado, você descobre o plano do inimigo de usar o Núcleo para destruir planetas. Você:</p>
+            <button class="btn-proximo" data-proximo="9">Sabota a nave inimiga</button>
+            <button class="btn-proximo" data-proximo="10">Rouba informações e escapa</button>
+        </div>
+
+        <!-- Fase 6 -->
+        <div class="passo" id="passo-6">
+            <p>Escondido, você observa a frota se movimentando para um ataque. Você precisa agir rápido.</p>
+            <button class="btn-proximo" data-proximo="9">Ativar um dispositivo de distração</button>
+            <button class="btn-proximo" data-proximo="8">Reunir aliados para um ataque coordenado</button>
+        </div>
+
+        <!-- Fase 7 -->
+        <div class="passo" id="passo-7">
+            <p>Você enfrenta o traidor e derrota-o em um duelo épico. O Núcleo está a salvo, mas a batalha deixou danos irreparáveis.</p>
+        </div>
+
+        <!-- Fase 8 -->
+        <div class="passo" id="passo-8">
+            <p>Com seus aliados, você derrota a frota inimiga e recupera o Núcleo. O universo está salvo.</p>
+        </div>
+
+        <!-- Fase 9 -->
+        <div class="passo" id="passo-9">
+            <p>Seu plano de sabotagem funciona, atrasando os inimigos, mas o Núcleo ainda corre perigo.</p>
+            <button class="btn-proximo" data-proximo="8">Liderar um ataque final</button>
+        </div>
+
+        <!-- Fase 10 -->
+        <div class="passo" id="passo-10">
+            <p>Você escapa com informações valiosas, permitindo que a frota aliada neutralize os inimigos. Você se torna um herói interestelar.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
